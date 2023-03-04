@@ -11,6 +11,11 @@ module.exports = [
     },
     {
       type: 'input',
+      name: 'usage',
+      message: 'What is the project for?',
+    },
+    {
+      type: 'input',
       name: 'installation',
       message: 'Any installations required?',
     },
@@ -25,14 +30,19 @@ module.exports = [
       message: 'Are there any tests required?',
     },
     {
-      type: 'input',
-      name: 'usage',
-      message: 'What is the project for?',
-    },
-    {
         type: 'list',
         name: 'license',
         message: 'Does the project have any licenses?',
-        choices: ['MIT', 'Apache 2.0','GNU General Public', 'None']
-    }
+        choices: ['MIT', 'GLPv2','GNU General Public', 'Apache' ,'None']
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What email can developers contact you at?',
+    },
+    {
+      type: 'input',
+      name: 'github',
+      message: 'What is your github username?',
+    },
   ];
