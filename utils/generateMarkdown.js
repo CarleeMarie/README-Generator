@@ -32,7 +32,7 @@ function generateMarkdown(data) {
   
   ![badmath](https://img.shields.io/badge/JavaScript-100%25-yellowgreen)
   
-  Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+  Check out the badges hosted by [shields.io](https://shields.io/).
   
   ## How to Contribute
   
